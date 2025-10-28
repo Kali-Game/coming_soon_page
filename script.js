@@ -88,7 +88,7 @@ function triggerEasterEgg() {
     document.head.appendChild(spinStyle);
     
     setTimeout(() => {
-        logo.style.animation = 'glow 2s ease-in-out infinite alternate';
+        logo.style.animation = '';
     }, 500);
 }
 
